@@ -1,3 +1,4 @@
 pymodbus==3.6.8
 pyserial==3.5
-
+starlette==0.37.2
+uvicorn==0.29.0

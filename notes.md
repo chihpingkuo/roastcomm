@@ -12,3 +12,8 @@ deactivate
 
 # shebang
 #!/usr/bin/env python
+
+# use python 3.11 since 3.12 will cause pyserial fileno error in pymodbus 3.6.8
+
+# run starlette server
+uvicorn roastcomm:app
